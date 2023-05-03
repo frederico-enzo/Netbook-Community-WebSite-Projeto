@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+
+.header {
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 1px solid rgba(33, 123, 244, 0.1);
+
+}
+
+.nav {
+
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header nav a {
+    color: #656464;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+
+}
+
+#community {
+    font-family: 'Inter', sans-serif;
+    color: #656464;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-size: 14px;
+    border-color: transparent;
+    background: transparent;
+}
+
+#cor-nav-home {
+    color: #2B2B39;
+    font-weight: 600;
+}
+
+.class-nav {
+    padding: 40px;
+    margin-left: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+}
+
+#Logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2B2B39;
+
+}
+
+#botao-login {
+    margin-right: 135px;
+    background-color: #217BF4;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 123px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+}
+
+#botao-login:hover {
+    font-family: 'Inter', sans-serif;
+    color: #2B2B39;
+}
+
+#png-logo {
+    height: 40px;
+}
+
+
+
+
+.conteudo-1 h2 {
+    padding: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #0A093D;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+
+}
+
+
+.container-block img {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+
+}
+
+.container-block h2 {
+    display: inline-block;
+    position: absolute;
+    width: 209px;
+    height: 26px;
+    top: 25px;
+    left: 130px;
+    color: #2F2C4A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+
+
+}
+
+.container-block p {
+    display: inline-block;
+    width: 315px;
+    height: 52px;
+    position: absolute;
+    top: 70px;
+    left: 130px;
+    color: #656464;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.h1home {
+    color: hsla(241, 74%, 14%, 1);
+    font-size: 56px;
+    font-weight: 700;
+
+}
+
+.imagemhome {
+    height: 501px;
+    width: 585px;
+
+}
+
+#Home {
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+
+}
+
