@@ -1,0 +1,79 @@
+#comunidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 174px;    
+}
+
+#comunidade-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#comunidade-header h5{
+    width: 135px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #217BF4;
+}
+#comunidade-header h1{
+    width: 441px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #0A093D;
+}
+#comunidade-header p{
+    width: 421px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #656464;
+}
+#community-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    justify-content: space-around;
+    width: 1088px;
+}
+.community-card{
+    display: flex;
+    width: 522px;
+    height: 182px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    transition: 0.5s;
+}
+.community-card:hover{
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+}
+.card-p{
+    display: flex;
+    margin-top: 14px;
+    width: 315px;
+    height: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464;
+}
+#fundo-comunidade{
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    width: 100vw;
+    height: 1069px;
+}

@@ -1,0 +1,148 @@
+#avaliacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px 135px;
+    gap: 24px;
+}
+.Rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: white;
+    border-radius: 14px;
+    width: 336px;
+    height: fit-content;
+    padding: 42px 18px 40px 44px;
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border: 1px solid #5E5E5E19;
+}
+.Rating p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+}
+.imagemrating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+    width: fit-content;
+    margin-top: -8px;
+}
+.imagemrating h3{
+    margin: 0px;
+}
+.guys{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content; 
+    align-items: center;
+}
+
+.guys img {
+    width: 24px;
+    height: 24px;
+}
+.meio {
+    margin: 0px -6px;
+}
+.members{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+#frase {
+    color: #217BF4;
+    margin-left: 16px;
+}
+.entrar{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #217BF4;
+}
+.Awards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 47px;
+    background-color: white;
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+    width: 336px;
+    height: fit-content;
+    padding: 46px 18px 40px 44px;
+    border: 1px solid #5E5E5E19;
+}
+.Awards p{
+    margin: 0px;
+}
+.imagemawards{
+    display: flex;
+    gap: 12.62px;
+}
+.imagemawards h3{
+    margin: 0px;
+}
+.imggit{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.Goto p{
+    color: #4A4A56;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+.conquista{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    width: 336px;
+    height: fit-content;
+}
+.conquista p{
+    margin: 0px;
+}
+.conquista h2{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+#achv{
+    color: #217BF4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.botaoaval{
+    display: flex;
+    margin-right: 135px;
+    width: 192px;
+    height: 58px;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+}
+.botaoaval img{
+    margin-left: 20px;
+}

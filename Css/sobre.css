@@ -1,0 +1,42 @@
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 34px 135px;
+    margin-top: 96px;
+}
+#sobre h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--azul-escuro);
+}
+#sobre h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--azul-claro);
+}
+#sobre p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+#text-sobre{
+    width: 406px;
+    margin-right: 200px;
+}
+#img-column-sobre{
+    display: flex;
+    flex-direction: column;
+}
+#sobre ul{
+    list-style-image: url(/images/bolinha.svg);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--azul-escuro);
+}
+#sobre li::marker{
+    height: 18px;
+}
